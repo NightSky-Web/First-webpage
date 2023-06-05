@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+   
+    margin-left: auto;
+   
+        
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header,
+.footer{
+    background-color: #1f2937;
+    
+}
+#header-main{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight:bolder;
+    margin-bottom: 0px;
+
+}
+#header-secondary
+{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0px;
+}
+#logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
+button,
+.alarm{
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+}
+#alarm-head
+{
+    font-weight: bolder;
+}
+
+
+#info{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.quote{
+    background-color: #E5E7EB;
+}
+#q-text{
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+}
+.footer{
+    color:#E5E7EB;
+    text-align: center;
+}
+.information{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    width: 900px;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 48px;
+    
+    
+}
