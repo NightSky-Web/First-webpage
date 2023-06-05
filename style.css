@@ -49,10 +49,6 @@ button,
     border-radius: 5px;
     color: #F9FAF8;
 }
-#alarm-head
-{
-    font-weight: bolder;
-}
 
 
 #info{
@@ -123,6 +119,38 @@ button,
 }
 
 .alarm{
-    margin: 80px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
     width: 1000px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.alarm-box{
+    display: flex;
+    padding: 48px;
+    gap: 14rem;
+    align-items: center;
+    
+}
+
+#alarm-button{
+    width: 120px;
+    border-width: 2px;
+    font-weight: bold;
+    height: 35px;
+}
+#alarm-head
+{
+    font-weight: bolder;
+    font-size: 24px;
+    
+}
+#alarm-head,
+#alarm-body{
+    margin: 0px;
+    margin-left: 48px;
 }
