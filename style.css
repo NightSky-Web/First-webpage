@@ -13,10 +13,7 @@ ul{
     display: flex;
     list-style-type: none;
     gap: 1rem;
-   
-    margin-left: auto;
-   
-        
+    margin-left: auto;  
 }
 a{
     text-decoration: none;
@@ -75,9 +72,6 @@ button,
     color:#E5E7EB;
     text-align: center;
 }
-.information{
-    text-align: center;
-}
 
 .container{
     display: flex;
@@ -87,4 +81,27 @@ button,
     padding-bottom: 48px;
     
     
+}
+.information{
+    text-align: center;
+    
+   
+}
+.sq,
+.deer,
+.wolf,
+.bear{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+    margin-top: 24px;
+}   
+.animals{
+    display: flex;
+    justify-content: center;
+   
+
 }
