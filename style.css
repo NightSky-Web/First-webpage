@@ -19,7 +19,13 @@ a{
     text-decoration: none;
     color: #E5E7EB;
 }
+#header-button{
+    width: 120px;
+    height: 35px;
+    border: #3882F6;
+    font-weight: bold;
 
+}
 .header,
 .footer{
     background-color: #1f2937;
@@ -62,6 +68,7 @@ button,
 .footer{
     color:#E5E7EB;
     text-align: center;
+    padding: 24px;
 }
 
 .container{
@@ -75,24 +82,27 @@ button,
 }
 .information{
     text-align: center;
-    
    
 }
 .sq,
 .deer,
 .wolf,
 .bear{
-    width: 200px;
+    width: 150px;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     margin-bottom: 80px;
     margin-top: 24px;
+    
+    
 }   
 .animals{
     display: flex;
     justify-content: center;
+    gap: 5rem;
+    
+    
    
 }
 
